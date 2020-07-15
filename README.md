@@ -63,4 +63,5 @@ NOTES:
     terraform destroy -var-file=variables.tfvars -auto-approve
     ```
     
- 
+## References:
+- https://github.com/justsimplify/sample-redis-api - (For sample Redis API)
