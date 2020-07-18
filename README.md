@@ -64,7 +64,7 @@ NOTES:
     ```
     
 ## Debug:
-- Set `set TF_LOG=DEBUG`. As per the warning, `TRACE` will be replaced permanently and other log types will be removed. 
+- Set `set TF_LOG=DEBUG`. As per the warning, `TRACE` should be used and other log types will be removed in the future. 
 
 ## References:
 - https://github.com/justsimplify/sample-redis-api - (For sample Redis API)
