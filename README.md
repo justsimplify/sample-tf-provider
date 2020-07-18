@@ -63,5 +63,8 @@ NOTES:
     terraform destroy -var-file=variables.tfvars -auto-approve
     ```
     
+## Debug:
+- Set `set TF_LOG=DEBUG`. As per the warning, `TRACE` will be replaced permanently and other log types will be removed. 
+
 ## References:
 - https://github.com/justsimplify/sample-redis-api - (For sample Redis API)
