@@ -49,8 +49,9 @@ func resourceServerRead(d *schema.ResourceData, m interface{}) error {
 	headers := m.(map[string]string)
 
 	url := fmt.Sprintf("http://0.0.0.0:8080/get/%s", k)
-	_, err := requestCreate("GET", url, headers)
+	r, err := requestCreate("GET", url, headers)
 	if err == nil {
+		_ = d.Set("value", r.Message)
 		return nil
 	}
 
